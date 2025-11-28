@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>신라대RISE 산학협의체 출범식 초청장</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans KR", system-ui, sans-serif;
+      background: #f3f6f9;
+      color: #07363c;
+    }
+
+    .wrap {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 16px 16px 24px;
+      background: #ffffff;
+      min-height: 100vh;
+    }
+
+    .hero-img {
+      width: 100%;
+      display: block;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 20px;
+      font-weight: 800;
+      margin: 4px 0 6px;
+      line-height: 1.4;
+    }
+
+    .subtitle {
+      font-size: 13px;
+      color: #4b5563;
+      margin-bottom: 12px;
+    }
+
+    .meta {
+      font-size: 14px;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .meta strong {
+      font-weight: 700;
+    }
+
+    .section-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin: 0 0 8px;
+    }
+
+    .place {
+      font-size: 13px;
+      color: #374151;
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    .map-box {
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid #e5e7eb;
+      margin-bottom: 12px;
+      background: #e5f3f6;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 14px 18px;
+      margin-top: 8px;
+      border-radius: 999px;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+
+    .btn-outline {
+      background: #ffffff;
+      color: #0b7c86;
+      border: 1px solid #0b7c86;
+    }
+
+    .btn-primary {
+      background: #0b7c86;
+      color: #f9fafb;
+      border: none;
+      box-shadow: 0 10px 24px rgba(0, 71, 79, 0.35);
+    }
+
+    .notice {
+      font-size: 11px;
+      color: #6b7280;
+      margin-top: 12px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- 1. 키비주얼 이미지 -->
+    <!-- 필요하면 이 src만 다른 주소로 교체하면 됨 -->
+    <img src="https://drive.google.com/uc?id=1UYtyYOCryRjULYM-EunawIAs5_rQzjjd"
+         alt="신라대RISE 산학협의체 출범식 키비주얼"
+         class="hero-img">
+
+    <!-- 2. 행사 정보 -->
+    <h1>신라대RISE 산학협의체 출범식</h1>
+    <div class="subtitle">
+      지역혁신기반 산학협력의 새로운 공동 플랫폼 구축
+    </div>
+
+    <div class="meta">
+      📅 <strong>2025년 12월 3일(수) 14:00–15:20</strong><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(등록 13:30부터)<br>
+      📍 <strong>부산산학융합원 캠퍼스관 1층</strong>
+    </div>
+
+    <!-- 3. 찾아오는 길 -->
+    <p class="section-title">찾아오는 길</p>
+    <div class="place">
+      부산산학융합원 캠퍼스관 1층<br>
+      (정확 주소 입력)
+    </div>
+
+    <!-- 3-1. 카카오 지도 퍼가기 -->
+    <div class="map-box">
+      <!-- 1. 지도 노드 -->
+      <div id="daumRoughmapContainer1764308549849"
+           class="root_daum_roughmap root_daum_roughmap_landing"></div>
+    </div>
+
+    <!-- 2. 설치 스크립트 -->
+    <script charset="UTF-8"
+            class="daum_roughmap_loader_script"
+            src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+    <!-- 3. 실행 스크립트 -->
+    <script charset="UTF-8">
+      new daum.roughmap.Lander({
+        "timestamp" : "1764308549849",
+        "key"       : "dc95ngfvay7",
+        "mapWidth"  : "480",
+        "mapHeight" : "260"
+      }).render();
+    </script>
+
+    <!-- 4. 버튼들 -->
+    <a href="https://kko.kakao.com/Ew4dqsNW8E"
+       target="_blank"
+       class="btn btn-outline">
+      카카오 지도 길찾기
+    </a>
+
+    <a href="https://forms.gle/L74AUjQpiDxVf57C8"
+       target="_blank"
+       class="btn btn-primary">
+      방문 신청하기
+    </a>
+
+    <div class="notice">
+      * 원활한 행사 준비를 위해 사전 신청을 부탁드립니다.<br>
+      * 주차 및 세부 프로그램 안내는 신청 완료 후 문자로 안내드립니다.
+    </div>
+
+  </div>
+</body>
+</html>
